@@ -1,0 +1,143 @@
+/* *{
+    margin:0;
+    padding:0;
+} */
+
+body{
+    background-color:#ffebcd;
+    color:#555555;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+
+    /* Literally does the same thing as above: */
+
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+
+    line-height:1.6em;
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+}
+
+a:hover{
+    color:#800000
+}
+
+a:active{
+    color:aquamarine
+}
+
+
+.container{
+    width:70%;
+    margin:auto;
+}
+
+.button{
+    background-color:#424242;
+    color:aliceblue;
+    padding:10px 16px;
+    border:none;
+}
+
+.box-1{
+    background-color: #424242;
+    color: #f0f8ff;
+
+    border: 1px blue solid;
+
+    padding:20px;
+
+    margin-top:20px;
+    margin:20px 0;
+}
+
+.box-1 h1{
+    font-family:'Courier New';
+    font-weight: 600;
+    font-style:bold;
+    text-decoration:underline;
+    letter-spacing: 0.2em;
+    text-transform:uppercase;
+}
+
+.box-2{
+    border:3px dotted gold;
+    padding:20px;
+    margin:20px 0;
+}
+
+.categories{
+    border:1px solid rgb(138, 21, 138);
+    padding:10px;
+    border-radius:15px;
+}
+
+.categories h2{
+    text-align:center;
+}
+
+.categories ul{
+    padding:10px;
+    list-style:square;
+}
+
+.categories li{
+    padding-bottom:8px;
+    border-bottom:dotted 1px black;
+    list-style-image: url(Discord-Symbol-Black.png)
+}
+
+.Bigform{
+    padding:20px;
+
+}
+
+.Bigform .form-group{
+    padding-bottom:15px;
+}
+
+.Bigform label{
+    display:block;
+}
+
+.Bigform input[type="text"], .Bigform textarea{
+    padding:16px;
+    width:80%;
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid #424242;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+#main-block{
+    float:left;
+    width:70%;
+}
+
+#side-bar{
+    float:right;
+    width:30%;
+    background-color: #800000;
+    color:darkblue;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000000;
+    margin-top:30px;
+    position:relative;
+}
+
